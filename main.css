@@ -1,67 +1,71 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Cormorant Garamond", serif;
-    background-color: #F9F1DC;
-    text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  background-color: #f9f1dc;
+  text-align: center;
 }
 
 header {
-    scale: .7;
+  scale: 0.7;
 }
 
 nav {
-    font-size: 1.5em;
-    place-items: center;
+  font-size: 1.5em;
+  place-items: center;
 }
 
 nav li {
-    border: 1px solid #F5BD26;
-    padding: .5em;
-    background-color: white;
+  border: 1px solid #f5bd26;
+  padding: 0.5em;
+  background-color: white;
 }
 
 nav li:hover {
-    cursor: pointer;
-    background-color: #F5BD26;
-    font-weight: 600;
+  cursor: pointer;
+  background-color: #f5bd26;
+  font-weight: 600;
+}
+
+nav li a {
+  text-decoration: none;
 }
 
 figure img {
-    border-top: 3px solid #F5BD26;
-    border-bottom: 3px solid #F5BD26;
+  border-top: 3px solid #f5bd26;
+  border-bottom: 3px solid #f5bd26;
 }
 
 ul {
-    padding-top: 1.5em;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5em;
-    margin-left: 25em;
-    margin-right: 25em;
+  padding-top: 1.5em;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  margin-left: 25em;
+  margin-right: 25em;
 }
 
 h2 {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 2em;
-    margin-top: 2em;
-    border-bottom: 2px solid #F5BD26;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 2em;
+  margin-top: 2em;
+  border-bottom: 2px solid #f5bd26;
 }
 
 main p {
-    margin: 1.5em auto 1.5em;
-    width: 30em;
-    text-align: center;
+  margin: 1.5em auto 1.5em;
+  width: 30em;
+  text-align: center;
 }
 
 footer {
-    background-color: white;
-    margin-top: 2em;
-    padding: 2em;
+  background-color: white;
+  margin-top: 2em;
+  padding: 2em;
 }
