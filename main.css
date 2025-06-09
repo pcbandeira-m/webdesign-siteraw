@@ -18,12 +18,16 @@ header {
 nav {
   font-size: 1.5em;
   place-items: center;
+  padding-top: 1em;
 }
 
 nav li {
   border: 1px solid #f5bd26;
   padding: 0.5em;
   background-color: white;
+  list-style: none;
+  display: inline;
+  margin: .8em;
 }
 
 nav li:hover {
@@ -41,7 +45,7 @@ figure img {
   border-bottom: 3px solid #f5bd26;
 }
 
-ul {
+main ul {
   padding-top: 1.5em;
   list-style: none;
   display: flex;
